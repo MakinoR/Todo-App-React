@@ -1,6 +1,7 @@
 /*eslint react-hooks/exhaustive-deps:off*/
 import React, { useEffect, useState } from "react";
-import ColorfulMessage from "./components/ColorfulMessage";
+//default exportだと｛｝がいらないのでreturn内とcomponent名が違っていても動いてしまう。。。
+import { ColorfulMessage } from "./components/ColorfulMessage";
 
 const App = () => {
   console.log("最初");
